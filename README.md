@@ -15,5 +15,7 @@ Include clarifai.js in your project source.
 
 In your index.html, create an array of the elements whose color you want dependent on image uploaded. Pass the image url and the element array to the `requestColor` function and call it.
 
+I created `index.html` as a usage example if you want to check that out!
+
 ## Sources
 I definitely stole the clarifai javascript started from https://github.com/cassidoo/clarifai-javascript-starter. Check it out, it's p cool.

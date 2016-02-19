@@ -24,7 +24,8 @@ function postImage(imgurl) {
     var data = {
         'url': imgurl
     };
-    var accessToken = localStorage.getItem('accessToken');
+    //var accessToken = localStorage.getItem('accessToken');
+    var accessToken = 'ciugyihB0ruV5cwSGypIfnXaxQX3Wz';
 
 // Changed url to use color model instead of regular tag
     return $.ajax({
@@ -107,7 +108,8 @@ function requestColor(imgurl, divelmt) {
 // Input: elmt - the HTML element(s) to be modified
 function setColor(elmt) {
     for (i = 0; i < elmt.length; i++) {
-        elmt[i].css("backgroundColor", tags[sortd[i]]);
+        j=i%(tags.length);
+        elmt[i].css("backgroundColor", tags[sortd[j]]);
     }
 }
 

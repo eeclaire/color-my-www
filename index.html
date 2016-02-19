@@ -11,8 +11,8 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             .color1{
-                width: 200px;
-                height: 200px;
+                width: 100%;
+                height: 50px;
                 background-color: lavender;
             }
         </style>
@@ -25,6 +25,16 @@ and open the template in the editor.
         <div class="color1" id="friendlyDiv"></div>
         <div class="color1" id="friendlierDiv"></div>
         <div class="color1" id="friendliestDiv"></div>
+        <div class="color1" id="f1"></div>
+        <div class="color1" id="f2"></div>
+        <div class="color1" id="f3"></div>
+        <div class="color1" id="f4"></div>
+        <div class="color1" id="f5"></div>
+        <div class="color1" id="f6"></div>
+        <div class="color1" id="f7"></div>
+        <div class="color1" id="f8"></div>
+        <div class="color1" id="f9"></div>
+        <button type="button" id="friendlyButton">Watch me change colors!</button>
         <br>
 
         <!-- These jams are the user image input-->
@@ -37,7 +47,9 @@ and open the template in the editor.
         <script>
             var input;
             
-            var elements = [$('#friendlyDiv'), $('#friendlierDiv'), $('#friendliestDiv')];
+            var elements = [$('#friendlyDiv'), $('#friendlierDiv'), $('#friendliestDiv'), 
+                $('#f1'), $('#f2'), $('#f3'), $('#f4'), $('#f5'), $('#f6'),
+                $('#f7'), $('#f8'), $('#f9'),$('#friendlyButton')];
             /*
             // Convenience get-by-Id function
             function my$(element) {
