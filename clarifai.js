@@ -25,7 +25,7 @@ function postImage(imgurl) {
         'url': imgurl
     };
     //var accessToken = localStorage.getItem('accessToken');
-    var accessToken = 'ciugyihB0ruV5cwSGypIfnXaxQX3Wz';
+    var accessToken = ACCESS_TOKEN;
 
 // Changed url to use color model instead of regular tag
     return $.ajax({

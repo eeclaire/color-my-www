@@ -11,6 +11,14 @@ var CLIENT_ID = 'your ID here';
 var CLIENT_SECRET = 'your secret here';
 ```
 
+*Actually, due to an issue I'm working on, the automated getCredentials isn't working. Instead, generate an access token at developer.clarifai.com, then in your keys.js, add
+
+```
+var ACCESS_TOKEN = 'access token';
+```
+
+Keep in mind that you need to generate a new access token after 24hrs. This is a temporary fix!
+
 Include clarifai.js in your project source. 
 
 In your index.html, create an array of the elements whose color you want dependent on image uploaded. Pass the image url and the element array to the `requestColor` function and call it.
