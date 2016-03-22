@@ -11,11 +11,12 @@ var CLIENT_ID = 'your ID here';
 var CLIENT_SECRET = 'your secret here';
 ```
 
-~~*Actually, due to an issue I'm working on, the automated getCredentials isn't working. Instead, generate an access token at developer.clarifai.com.~~
+~~*Actually, due to an issue I'm working on, the automated getCredentials isn't working. Instead, generate an access token at developer.clarifai.com.
 
-*`getCredentials()` is up and running again!
+Keep in mind that you need to generate a new access token after 24hrs. This is a temporary fix!~~
 
-Keep in mind that you need to generate a new access token after 24hrs. This is a temporary fix!
+`getCredentials()` is up and running again!
+
 
 Include clarifai.js in your project source. 
 
