@@ -6,12 +6,12 @@ Implements the [Clarifai](https://www.clarifai.com/) API to color website elemen
 
 2. Create an application and copy and paste your application CLIENT_ID and CLIENT_SECRET into a `keys.js` file as shown below. (Don't forget to include it in your `.gitignore` file so that you don't share your credentials with everyone!)
 
-```
-var CLIENT_ID = 'your ID here';
-var CLIENT_SECRET = 'your secret here';
-```
+	```
+	var CLIENT_ID = 'your ID here';
+	var CLIENT_SECRET = 'your secret here';
+	```
 
-The `getCredentials()` will generate an access token so that you don't have to worry about it!
+	The `getCredentials()` will generate an access token so that you don't have to worry about it!
 
 
 3. Include clarifai.js in your project source.
